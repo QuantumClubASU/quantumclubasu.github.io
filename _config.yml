@@ -116,7 +116,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "QuantumClubASU/Blog" # <gh-username>/<repo>
+    repo: "QuantumClubASU/quantumclubasu.github.io" # <gh-username>/<repo>
     repo_id: "R_kgDOPfPglQ"
     category: "Comments"
     category_id: "DIC_kwDOPfPglc4CuQ7X"
