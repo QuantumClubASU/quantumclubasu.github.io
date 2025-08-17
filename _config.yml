@@ -14,35 +14,31 @@ timezone: America/Phoenix
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Vinayak's Blog # the main title
+title: Quantum Club Blog # the main title
 
-tagline: Musings of a PhD Student # it will display as the subtitle
+tagline: Quantum Curiosity # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Just a place where I can post random thoughts I like sharing
+  Dive into the world of quantum machine learning with our blog—exploring cutting-edge research, practical guides, and inspiring projects from the Quantum Club community. Learn, share, and innovate in the exciting realm of quantum technology.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://vinayak19th.github.io"
+url: "https://QuantumClubASU.github.io"
 
 github:
-  username: vinayak19th # change to your GitHub username
-
-twitter:
-  username: vinayak1998th # change to your Twitter username
+  username: QuantumClubASU # change to your GitHub username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Vinayak Sharma
-  email: vinayak.sharma@asu.edu # change to your email address
+  name: Quantum Club
+  email: quantumclub.asu@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/vinayak1998th # change to your Twitter homepage
-    - https://github.com/vinayak19th # change to your GitHub homepage
+    - https://github.com/QuantumClubASU # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/vinayak19th
+    - https://www.linkedin.com/company/quantum-club-asu/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -95,11 +91,11 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+# cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://www.gravatar.com/avatar/2302f2e8d1521c441894759ef96580b2?s=400"
-gravatar_hash: 2302f2e8d1521c441894759ef96580b2
+avatar: "assets/img/LogoV3_Circle.png"
+# gravatar_hash:
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
