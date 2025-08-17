@@ -1,4 +1,9 @@
 ---
-layout: home
-# Index page
+layout: page
+title: Quantum Club @ ASU
 ---
+{% capture imported_md %}
+  {% include about.md %}
+{% endcapture %}
+
+{{ imported_md | markdownify }}
