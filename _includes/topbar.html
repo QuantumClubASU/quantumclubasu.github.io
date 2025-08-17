@@ -96,6 +96,7 @@
   $toggle = document.getElementById('mode-toggle');
   $circle_toggle = document.getElementById('circle-toggle');
   if (Theme.visualState == 'dark') {
+    $toggle.classList.toggle('active');
     $circle_toggle.innerHTML = '<i class="bi bi-brightness-high-fill"></i>';
   } else if (Theme.visualState == 'light') {
     $circle_toggle.innerHTML = '<i class="bi bi-moon-stars"></i>';
