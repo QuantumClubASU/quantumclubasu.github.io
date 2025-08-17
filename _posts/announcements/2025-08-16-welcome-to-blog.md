@@ -1,6 +1,6 @@
 ---
-title: Welcome to our Blog
-description: Introducing to our Club's Blog
+title: Welcome to the Quantum Club Community!
+description: Introducing to our Club
 author: vinayak
 date: 2025-08-16 01:03:00 -0700
 categories: [Announcements, General Information]

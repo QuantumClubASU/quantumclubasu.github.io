@@ -54,7 +54,7 @@
   position: relative;
   width: 3.5rem;
   height: 1.9rem;
-  background-color: #ccc;
+  background-color: #333;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -63,6 +63,9 @@
   padding: 0;
 }
 
+.toggle-btn:hover {
+  background-color: #555;
+}
 
 .toggle-circle {
   position: absolute;
@@ -70,8 +73,8 @@
   left: 0.3rem;
   width: 1.5rem;
   height: 1.5rem;
-  background: #333;
-  color: white;
+  background: white;
+  color: var(--card-header-bg);
   border-radius: 50%;
   transition: transform 0.4s ease; /* smooth sliding */
 }
@@ -79,9 +82,60 @@
 .toggle-btn.active .toggle-circle {
   transform: translateX(1.4rem); /* moves to the right */
   background: white;
-  color: #333;
 }
 
 .toggle-btn.active {
   background-color: #ccc;
+}
+
+.toggle-btn.active:hover {
+  background-color: #797979;
+}
+
+.team-card {
+  background: var(--card-header-bg);
+  color: var(--text-color);
+  border: 0.1em solid var(--sidebar-border-color);
+}
+
+.team-card .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(0,0,0,.08);
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+
+  .team-card .role {
+    font-size: .9rem;
+    color: var(--text-muted-color);
+  }
+
+  .team-card .social a {
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    padding-top: 0.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--sidebar-btn-bg);
+    border: 0.1em solid var(--sidebar-border-color);
+    color: var(--sidebar-btn-color);
+    margin: 0 4px;
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+
+  .team-card .social a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    text-decoration: none;
+  }
+
+.card-footer {
+  // background: var(--sidebar-bg);
+  background: var(--card-bg);
+  border-top: 0.1em solid var(--sidebar-border-color);
 }
