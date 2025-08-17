@@ -14,9 +14,9 @@ timezone: America/Phoenix
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Quantum Club Blog # the main title
+title: Quantum Club # the main title
 
-tagline: Quantum Curiosity # it will display as the subtitle
+tagline: at Arizona State University # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Dive into the world of quantum machine learning with our blog—exploring cutting-edge research, practical guides, and inspiring projects from the Quantum Club community. Learn, share, and innovate in the exciting realm of quantum technology.
