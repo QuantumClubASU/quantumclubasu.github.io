@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: bi bi-pen-fill
 order: 1
 ---
 
