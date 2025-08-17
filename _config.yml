@@ -148,6 +148,8 @@ paginate: 10
 
 # The base URL of your site
 baseurl: ""
+# Folder for all images in blog posts
+post_image_path: "/PostMedia"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -189,6 +191,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: "/PostMedia"
+    values:
+      image: true
 
 sass:
   style: compressed
