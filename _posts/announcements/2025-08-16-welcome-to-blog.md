@@ -10,11 +10,15 @@ math: true
 comments: true
 mermaid: true
 render_with_liquid: true
+image:
+  path: /PostMedia/announcements/2025-08-16-welcome-to-blog/LogoBox.png
 ---
 {% assign parts = page.path | split: '/' %}
 {% assign filename = parts[2] | split: '.' | first %}
 {% assign image_path = site.post_image_path | append: '/' | append: parts[1] | append: '/' | append: filename %}
 
-Here is the {{image_path}}
 
-![Desktop View]({{image_path}}/ClubLogo.png){: width="500" }
+![Light mode only]({{image_path}}/LogoBoxDark.png){: .light }
+![Dark mode only]({{image_path}}/LogoBox.png){: .dark }
+
+![Desktop View](){: width="500" }

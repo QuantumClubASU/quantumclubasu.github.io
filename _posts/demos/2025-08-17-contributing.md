@@ -244,7 +244,7 @@ By default, the image is centered, but you can specify the position by using one
   ```
   {: .nolineno}
 
-#### Dark/Light mode
+#### Dark/Light Mode Images
 
 You can make images follow theme preferences in dark/light mode. This requires you to prepare two images, one for dark mode and one for light mode, and then assign them a specific class (`dark` or `light`):
 
@@ -296,9 +296,6 @@ image:
   lqip: /path/to/lqip-file # or base64 URI
 ---
 ```
-
-> You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
-
 For normal images:
 
 ```markdown
@@ -385,6 +382,64 @@ Consider an example using all of the above:
   title='Demo audio'
 %}
 ```
+
+## Typography
+
+
+### Headings
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+# H1 — heading
+{: .mt-4 .mb-0 }
+
+## H2 — heading
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+### H3 — heading
+{: data-toc-skip='' .mt-4 .mb-0 }
+
+#### H4 — heading
+{: data-toc-skip='' .mt-4 }
+<!-- markdownlint-restore -->
+
+## Paragraph
+
+Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
+
+## Lists
+
+### Ordered list
+
+1. Firstly
+2. Secondly
+3. Thirdly
+
+### Unordered list
+
+- Chapter
+  - Section
+    - Paragraph
+
+### ToDo list
+
+- [ ] Job
+  - [x] Step 1
+  - [x] Step 2
+  - [ ] Step 3
+
+### Description list
+
+Sun
+: the star around which the earth orbits
+
+Moon
+: the natural satellite of the earth, visible by reflected light from the sun
+
+## Block Quote
+
+> This line shows the _block quote_.
+
 
 ### Pinned Posts
 
