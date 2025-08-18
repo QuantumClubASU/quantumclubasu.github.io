@@ -94,7 +94,7 @@ theme_mode: # [light | dark]
 # cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/img/LogoV3_CircleDark.png"
+avatar: "assets/img/LogoV3_Dark_Square.png"
 # Uncomment bottom if you want a different avatar in dark mode and light mode.
 #The light mode verison will the default from above
 avatar_dark: "assets/img/LogoV3_Square.png"
