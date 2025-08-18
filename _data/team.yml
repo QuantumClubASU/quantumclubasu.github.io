@@ -1,8 +1,25 @@
-vinayak:
-  name: Vinayak Sharma
-  twitter: vinayak19th
-  url: https://www.vinayak19th.me/
+members:
+  - name: Sahil Panjwani
+    post: President
+    image: https://media.licdn.com/dms/image/v2/D5603AQFmz9NOlb6x0A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721484773695?e=1758153600&v=beta&t=VCIZVPYDRJQjVrt2mJLuocidMGfOWPRZ24zVjvwOYuk
+    url: https://www.linkedin.com/in/pansahi/
+    linkedin: pansahi
+    github: spqdev #Add github ID
+    # website: # Add website link
+    # email: #Add email id
+    # google_scholar: # link to google scholar
+    # orcid: #link to orchid
+    about: |
+      I am a Computer Science undergraduate with a strong passion for Machine Learning, Artificial Intelligence, and Quantum Computing.
 
-sahil:
-  name: Sahil Panjwani
-  url: https://www.linkedin.com/in/pansahi/
+  - name: Vinayak Sharma
+    post: Secretary
+    image: "https://www.gravatar.com/avatar/2302f2e8d1521c441894759ef96580b2?s=400"
+    github: vinayak19th
+    linkedin: vinayak19th
+    website: https://www.vinayak19th.me/
+    email: vsharm87@asu.edu
+    google_scholar: https://scholar.google.com/citations?user=r763skMAAAAJ&hl=en
+    orcid: https://orcid.org/0009-0009-5633-4003
+    about: |
+      PhD student in Quantum Machine Learning with a passion for bridging the gap between theory and application.
