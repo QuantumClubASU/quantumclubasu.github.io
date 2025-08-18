@@ -117,6 +117,9 @@
     width: 1.8em;
     height: 1.8em;
     font-size: 1.3rem;
+    margin: 0.1rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0px;
     border-radius: 50%;
     padding-top: 0.1rem;
     display: inline-flex;
@@ -125,7 +128,6 @@
     background: var(--sidebar-btn-bg);
     border: 0.1em solid var(--sidebar-border-color);
     color: var(--sidebar-btn-color);
-    margin: 0 4px;
     transition: transform .12s ease, box-shadow .12s ease;
   }
 
