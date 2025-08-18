@@ -27,4 +27,5 @@ Whether you are just getting started or looking to deepen your understanding, we
 Join us for workshops, talks, projects, and discussions that bridge theory and application.
 
 👉 Join Our Discord!
+
 https://discord.gg/GfJUfyRpty
