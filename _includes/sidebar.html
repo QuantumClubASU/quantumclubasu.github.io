@@ -7,7 +7,29 @@
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
         {%- endcapture -%}
-        <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+        {%- if site.avatar_dark != empty and site.avatar_dark -%}
+          {%- capture avatar_dark_url -%}
+            {% include media-url.html src=site.avatar_dark %}
+          {%- endcapture -%}
+          <img
+            src="{{- avatar_url -}}"
+            width="112"
+            class="light"
+            height="112"
+            alt="avatar"
+            onerror="this.style.display='none'"
+          >
+          <img
+            src="{{- avatar_dark_url -}}"
+            width="112"
+            class="dark"
+            height="112"
+            alt="avatar"
+            onerror="this.style.display='none'"
+          >
+        {%- else -%}
+          <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+        {%- endif -%}
       {%- endif -%}
     </a>
 
