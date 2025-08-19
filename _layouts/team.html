@@ -53,4 +53,57 @@ layout: no_panel_default
       </div>
     </div>
   </div>
+  <hr>
+  <h1 class="mb-1">The people who got us to where we are</h1>
+  <p class="text-muted mb-0">Our previous leadership.</p>
+  <hr style="border-style: dotted;">
+
+  <div class="content">
+    <div class="container py-4">
+      <div class="row">
+        <!-- Card 1 -->
+        {% for member in site.data.team.previous_members %}
+          <div class="col-12 col-sm-5 col-md-5 col-lg-5 d-flex">
+            <div class="card team-card w-100 text-center d-flex flex-column">
+              <div class="card-body d-flex flex-column align-items-center">
+                <img
+                  class="avatar mx-auto mb-3"
+                  src="{{ member.image | default: '/assets/images/default-avatar.png' }}"
+                  alt="Headshot of {{member.name}} }}"
+                >
+                <h5 class="card-title mb-1">{{ member.name }}</h5>
+                <div class="role mb-2">{{ member.post }}</div>
+                <p class="card-text flex-grow-1">
+                  {{ member.about | markdownify }}
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="social mt-2">
+                  {%- if member.email -%}
+                    <a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a>&nbsp; &nbsp;
+                  {%- endif -%}
+                  {%- if member.linkedin -%}
+                    <a href="https://www.linkedin.com/in/{{member.linkedin}}"><i class="fab fa-linkedin"></i></a>&nbsp;
+                    &nbsp;
+                  {%- endif -%}
+                  {%- if member.github -%}
+                    <a href="https://github.com/{{member.github}}"><i class="fab fa-github"></i></a>&nbsp; &nbsp;
+                  {%- endif -%}
+                  {%- if member.orcid -%}
+                    <a href="{{member.orcid}}"><i class="ai ai-orcid"></i></a>&nbsp; &nbsp;
+                  {%- endif -%}
+                  {%- if member.google_scholar -%}
+                    <a href="{{member.google_scholar}}"><i class="ai ai-google-scholar-square"></i></a>&nbsp; &nbsp;
+                  {%- endif -%}
+                  {%- if member.website -%}
+                    <a href="{{member.website}}"><i class="fa fa-link"></i></a>&nbsp; &nbsp;
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </article>

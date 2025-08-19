@@ -23,12 +23,21 @@ members:
     orcid: https://orcid.org/0009-0009-5633-4003
     about: |
       PhD student in Quantum Machine Learning with a passion for bridging the gap between theory and application.
-      
+
   - name: Matthew Stevens
     post: Treasurer
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1758153600&v=beta&t=S-azPwh2Rr4pJSH7-citlJobLHcap9mU4z4Y0JvVJ3Y"
+    image: https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1758153600&v=beta&t=S-azPwh2Rr4pJSH7-citlJobLHcap9mU4z4Y0JvVJ3Y
     linkedin: matthewleestevens
     website: https://www.linkedin.com/in/matthewleestevens
     email: msteve27@asu.edu
+    github: mstevens1216
     about: |
       Undergrad student in Electrical Engineering passionate abiout fields and optics with a focus on Quantum Networking and photonics.
+
+previous_members:
+  - name: Zachary Goisman
+    post: Secretary [2023-2024]
+    linkedin: zachary-goisman
+    image: https://media.licdn.com/dms/image/v2/D5603AQFVHy0nsfpdDQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1667526264534?e=1758758400&v=beta&t=M63wLljfJu4WJey6KrngMb4aIZnyA6EUBLY5tGbvNUQ
+    about: |
+      I am an Electrical Engineering PhD student at Purdue University researching Quantum Networking.
