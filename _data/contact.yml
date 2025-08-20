@@ -24,6 +24,10 @@
   icon: "fab fa-discord" # icons powered by <https://fontawesome.com/>
   url: "https://discord.gg/GfJUfyRpty" # Fill with your Linkedin homepage
 
+- type: instagram
+  icon: "bi bi-instagram"
+  url: "https://www.instagram.com/quantumclubasu/" # Fill with your Linkedin homepage
+
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
