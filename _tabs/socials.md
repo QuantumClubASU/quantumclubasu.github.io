@@ -1,6 +1,6 @@
 ---
 layout: socials
-icon: bi bi-instagram"
+icon: bi bi-instagram
 order: 4
 title: Social Posts
 ---

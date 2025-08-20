@@ -1,5 +1,5 @@
 
-## Welcome to the Quantum Club @ ASU!
+## Welcome to the Quantum Club @ ASU
 
 <div style="display:flex; align-items:center; gap:16px;">
   <img src="assets/img/LogoV3_CircleDark.png" class="light" alt="Light mode only" style="width:180px; max-width:200px; height:auto;">
