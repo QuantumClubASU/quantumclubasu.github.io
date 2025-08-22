@@ -1,6 +1,6 @@
 ---
 title: We are now on GitHub!
-description: Introducing to our Club's Blog
+description: Introducing to our Club's github page
 author: vinayak
 date: 2025-08-17 12:55:00 -0700
 categories: [Announcements, General Information]
