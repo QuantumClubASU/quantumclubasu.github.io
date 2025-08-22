@@ -12,6 +12,16 @@ members:
     about: |
       I am a Computer Science undergraduate with a strong passion for Machine Learning, Signal Processing, and Quantum Computing.
 
+  - name: Avneet Kaur
+    post: Vice President
+    image: https://media.licdn.com/dms/image/v2/D5603AQG2grjHzFbnaw/profile-displayphoto-shrink_400_400/B56ZTdPG5SGsAk-/0/1738878513012?e=1758758400&v=beta&t=-nSpyzJSvvw6ScXPQCGQym-rdJUCZf0vJ6dXWX4B9B0
+    linkedin: azavneet
+    email: akaur35@asu.edu
+    # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
+    # github: mstevens1216
+    about: |
+      Undergraduate Researcher in Quantum Sensing
+
   - name: Vinayak Sharma
     post: Secretary
     image: "https://gravatar.com/avatar/953d19833b6b06cb9f2adbefdcf626affa5f541296a9f6e41990c937181d84c9?s=600"
@@ -33,16 +43,6 @@ members:
     github: mstevens1216
     about: |
       Undergrad student in Electrical Engineering passionate abiout fields and optics with a focus on Quantum Networking and photonics.
-
-  - name: Avneet Kaur
-    post: Vice President
-    image: https://media.licdn.com/dms/image/v2/D5603AQG2grjHzFbnaw/profile-displayphoto-shrink_400_400/B56ZTdPG5SGsAk-/0/1738878513012?e=1758758400&v=beta&t=-nSpyzJSvvw6ScXPQCGQym-rdJUCZf0vJ6dXWX4B9B0
-    linkedin: azavneet
-    email: akaur35@asu.edu
-    # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
-    # github: mstevens1216
-    about: |
-      Undergraduate Researcher in Quantum Sensing
 
 previous_members:
   - name: Zachary Goisman
