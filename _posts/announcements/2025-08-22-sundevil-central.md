@@ -15,8 +15,8 @@ render_with_liquid: true
 {% assign filename = parts[2] | split: '.' | first %}
 {% assign image_path = site.post_image_path | append: '/' | append: parts[1] | append: '/' | append: filename %}
 
-![Desktop View]({{image_path}}/poster.png){: .light }{: width="500" }
-![Desktop View]({{image_path}}/posterDark.png){: .dark }{: width="500" }
+![Desktop View]({{image_path}}/Poster.png){: .light }{: width="500" }
+![Desktop View]({{image_path}}/PosterDark.png){: .dark }{: width="500" }
 
 It took a while… but we finally made it! 🎉
 
