@@ -26,6 +26,45 @@ Whether you are just getting started or looking to deepen your understanding, we
 ### Get Involved
 Join us for workshops, talks, projects, and discussions that bridge theory and application.
 
-👉 Join Our Discord!
+<center>
+<div class="social mt-2" style="font-size: 4.5rem; margin-top: -2rem">
+    <a href="https://discord.gg/GfJUfyRpty"><i class="bi bi-discord"></i></a>&nbsp;
+    <a href="mailto:quantumclub.asu@gmail.com"><i class="fa fa-envelope"></i></a>&nbsp;
+    <a href="https://www.linkedin.com/company/quantum-club-asu/"><i class="fab fa-linkedin"></i></a>&nbsp;
+    <a href="https://www.instagram.com/quantumclubasu/"><i class="bi bi-instagram"></i></a>&nbsp;
+</div>
+</center>
 
-https://discord.gg/GfJUfyRpty
+<hr> 
+
+### Past Event Collaborations
+Here are some of the incredible organizations we have collaborated with for past events:
+
+<center>
+<div class="image-grid" style="align-items: center;">
+  <a href="https://www.ibm.com/quantum">
+    <img src="assets/img/partners/PNGs/IBM_dark.png" alt="IBM" class="dark" style="width: 7rem;; margin-right:2rem;">
+    <img src="assets/img/partners/PNGs/IBM_light.png" alt="IBM" class="light" style="width: 7rem;; margin-right:2rem;">
+  </a>
+  &nbsp;
+  <a href="https://www.dwavequantum.com/">
+    <img src="assets/img/partners/PNGs/D-Wave_dark.png" alt="D-Wave" class="dark" style="width: 7rem;; margin-right:2rem;">
+    <img src="assets/img/partners/PNGs/D-Wave_light.png" alt="D-Wave" class="light" style="width: 7rem;; margin-right:2rem;">
+  </a>
+  &nbsp;
+  <a href="https://www.quantinuum.com/">
+    <img src="assets/img/partners/PNGs/Quantinuum_dark.png" alt="Quantinuum" class="dark" style="width: 7rem;; margin-right:2rem;">
+    <img src="assets/img/partners/PNGs/Quantinuum_light.png" alt="Quantinuum" class="light" style="width: 7rem;; margin-right:2rem;">
+  </a>
+  &nbsp;
+  <a href="https://www.bqpsim.com/">
+    <img src="assets/img/partners/PNGs/BQP_dark.png" alt="BQP" class="dark" style="width: 7rem;; margin-right:2rem;">
+    <img src="assets/img/partners/PNGs/BQP_light.png" alt="BQP" class="light" style="width: 7rem;; margin-right:2rem;">
+  </a>
+  &nbsp;
+  <a href="https://quantumcollaborative.org/">
+    <img src="assets/img/partners/PNGs/QuantumCollaborative_dark.png" alt="QuantumCollaborative" class="dark" style="width: 7rem;; margin-right:2rem;">
+    <img src="assets/img/partners/PNGs/QuantumCollaborative_light.png" alt="QuantumCollaborative" class="light" style="width: 7rem;; margin-right:2rem;">
+  </a>
+</div>
+</center>
