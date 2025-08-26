@@ -127,7 +127,7 @@
     color: var(--text-muted-color);
   }
 
-  .team-card .social a {
+.social a {
     width: 1.8em;
     height: 1.8em;
     font-size: 1.3rem;
@@ -145,7 +145,7 @@
     transition: transform .12s ease, box-shadow .12s ease;
   }
 
-  .team-card .social a:hover {
+.social a:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px var(--sidebar-hover-bg);
     text-decoration: none;
