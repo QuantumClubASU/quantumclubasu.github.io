@@ -27,7 +27,7 @@ Whether you are just getting started or looking to deepen your understanding, we
 Join us for workshops, talks, projects, and discussions that bridge theory and application.
 
 <center>
-<div class="social mt-2" style="font-size: 4.5rem; margin-top: -2rem">
+<div class="social" style="font-size: 4.5rem; margin-top: -3rem">
     <a href="https://discord.gg/GfJUfyRpty"><i class="bi bi-discord"></i></a>&nbsp;
     <a href="mailto:quantumclub.asu@gmail.com"><i class="fa fa-envelope"></i></a>&nbsp;
     <a href="https://www.linkedin.com/company/quantum-club-asu/"><i class="fab fa-linkedin"></i></a>&nbsp;
