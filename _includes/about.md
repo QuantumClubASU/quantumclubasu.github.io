@@ -2,8 +2,7 @@
 ## Welcome to the Quantum Club @ ASU
 
 <div style="display:flex; align-items:center; gap:16px;">
-  <img src="assets/img/LogoV3_CircleDark.png" class="light" alt="Light mode only" style="width:180px; max-width:200px; height:auto;">
-  <img src="assets/img/LogoV3_Circle.png" class="dark" alt="Dark mode only" style="width:180px; max-width:200px; height:auto;">
+  <img src="assets/img/LogoV3_Circle.png" alt="Dark mode only" style="width:180px; max-width:200px; height:auto;">
   <div>
     <h3> Who Are We? </h3>
     <p>
