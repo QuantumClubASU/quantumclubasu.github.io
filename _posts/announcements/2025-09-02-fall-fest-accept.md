@@ -2,7 +2,7 @@
 title: We are hosting a Sponsored IBM Fall Fest!
 description: Announcing that we were selected to host a sponsored Fall Fest event by IBM
 author: vinayak
-date: 2025-08-25 10:53:00 -0700
+date: 2025-09-02 10:53:00 -0700
 categories: [Announcements, Event]
 tags: [announcements, event]
 comments: true
