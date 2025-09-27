@@ -2,7 +2,7 @@
 title: Introducing to Quantum Networking
 description: Lecture on Quantum Networking with live experiments, simulations, and free pizza!
 author: matthew
-date: 2025-09-12 02:58:00 -0700
+date: 2025-09-27 11:58:00 -0700
 categories: [Announcements, Event]
 tags: [announcements, event]
 comments: true
