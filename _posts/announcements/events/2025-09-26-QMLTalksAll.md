@@ -1,5 +1,5 @@
 ---
-title: QML Lecture Series 1
+title: QML Lecture Series | Fall 2025
 description: Lectures on Quantum Machine Learning
 author: vinayak
 date: 2025-09-26 11:10:00 -0700
