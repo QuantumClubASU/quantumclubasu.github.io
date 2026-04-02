@@ -1,7 +1,7 @@
 members:
   - name: Sahil Panjwani
     post: President
-    image: https://media.licdn.com/dms/image/v2/D5603AQHF-uHcPgO8Dw/profile-displayphoto-scale_400_400/B56ZkcTFqjJ0Ag-/0/1757116391817?e=1761782400&v=beta&t=FlGKGT5tkM2LnCd7UKrpSazlJ26ZFrWNwACpS8b5cY4
+    image: https://www.ais-asu.com/_next/image?url=%2FOfficers%2Fsahil.jpeg&w=256&q=85
     # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
     linkedin: pansahi # The name after /www.linkedin.com/in/**** (Only include that last name)
     github: spqdev #Add github ID
@@ -14,13 +14,23 @@ members:
 
   - name: Avneet Kaur
     post: Vice President
-    image: https://media.licdn.com/dms/image/v2/D5603AQG2grjHzFbnaw/profile-displayphoto-shrink_800_800/B56ZTdPG5SGsAg-/0/1738878513011?e=1761782400&v=beta&t=Px18y9aGloX4fZ01g3Ws3vdU4dHbJrLXHPsIwAneuVQ
+    image: https://media.licdn.com/dms/image/v2/D5603AQG2grjHzFbnaw/profile-displayphoto-shrink_800_800/B56ZTdPG5SGsAg-/0/1738878513011?e=1776902400&v=beta&t=VN5y56maC2qvFqqZygzhUZCE3tZbe8vj0Qg4kSTXsYE
     linkedin: azavneet
     email: akaur35@asu.edu
     # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
     # github: mstevens1216
     about: |
       Electrical Engineering Undergrad interested in all things Quantum! Undergraduate Researcher in Quantum Sensing at the Xie lab and an avid Quantum Computing Hackathon participant
+ 
+  - name: Akshith Gandham
+    post: Treasurer
+    image: https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1761782400&v=beta&t=YxcbPvCb1dCIikO8xOZlEE7sdIajkmpHNXbgxJw-Esk
+    linkedin: akshith-gandham-4a0647354/
+    email: agandha1@asu.edu
+    # url: # Only use this for personal websites. LinkedIn will automatically get the URL based on the ID
+    github: AkshithGandhamASU
+    about: |
+      Undergrad in Computer Science and Mathematics with a passion for Quantum Computing and Machine Learning.
 
   - name: Vinayak Sharma
     post: Secretary
@@ -33,16 +43,6 @@ members:
     orcid: https://orcid.org/0009-0009-5633-4003
     about: |
       Hey there! I'm a PhD student in Quantum Machine Learning with a passion for bridging the gap between theory and application.
-
-  - name: Matthew Stevens
-    post: Treasurer
-    image: https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1761782400&v=beta&t=YxcbPvCb1dCIikO8xOZlEE7sdIajkmpHNXbgxJw-Esk
-    linkedin: matthewleestevens
-    email: msteve27@asu.edu
-    # url: # Only use this for personal websites. LinkedIn will automatically get the URL based on the ID
-    github: mstevens1216
-    about: |
-      Undergrad student in Electrical Engineering, passionate about fields and optics with a focus on Quantum Networking and photonics.
 
 previous_members:
   - name: Noah Wasserbeck
@@ -65,3 +65,14 @@ previous_members:
     image: https://media.licdn.com/dms/image/v2/D5603AQFVHy0nsfpdDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667526264534?e=1761782400&v=beta&t=Oseon-hTWmJfLVyGCbCkQQrhIYxalu7kWjK0VWTXyGs
     about: |
       I am an Electrical Engineering PhD student at Purdue University researching Quantum Networking.
+  
+  - name: Matthew Stevens
+    post: Treasurer
+    image: https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1761782400&v=beta&t=YxcbPvCb1dCIikO8xOZlEE7sdIajkmpHNXbgxJw-Esk
+    linkedin: matthewleestevens
+    email: msteve27@asu.edu
+    # url: # Only use this for personal websites. LinkedIn will automatically get the URL based on the ID
+    github: mstevens1216
+    about: |
+      Undergrad student in Electrical Engineering, passionate about fields and optics with a focus on Quantum Networking and photonics.
+
