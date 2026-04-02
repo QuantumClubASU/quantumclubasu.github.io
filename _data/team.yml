@@ -14,7 +14,7 @@ members:
 
   - name: Avneet Kaur
     post: Vice President
-    image: https://media.licdn.com/dms/image/v2/D5603AQG2grjHzFbnaw/profile-displayphoto-shrink_800_800/B56ZTdPG5SGsAg-/0/1738878513011?e=1776902400&v=beta&t=VN5y56maC2qvFqqZygzhUZCE3tZbe8vj0Qg4kSTXsYE
+    image: /assets/img/team/avneet.jpeg
     linkedin: azavneet
     email: akaur35@asu.edu
     # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
