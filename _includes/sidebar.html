@@ -4,32 +4,20 @@
   <header class="profile-wrapper">
     <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
       {%- if site.avatar != empty and site.avatar -%}
-        {%- capture avatar_url -%}
-          {% include media-url.html src=site.avatar %}
-        {%- endcapture -%}
-        {%- if site.avatar_dark != empty and site.avatar_dark -%}
-          {%- capture avatar_dark_url -%}
-            {% include media-url.html src=site.avatar_dark %}
-          {%- endcapture -%}
-          <img
-            src="{{- avatar_url -}}"
-            width="112"
-            class="light"
-            height="112"
-            alt="avatar"
-            onerror="this.style.display='none'"
-          >
-          <img
-            src="{{- avatar_dark_url -}}"
-            width="112"
-            class="dark"
-            height="112"
-            alt="avatar"
-            onerror="this.style.display='none'"
-          >
-        {%- else -%}
-          <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
-        {%- endif -%}
+      {%- capture avatar_url -%}
+      {% include media-url.html src=site.avatar %}
+      {%- endcapture -%}
+      {%- if site.avatar_dark != empty and site.avatar_dark -%}
+      {%- capture avatar_dark_url -%}
+      {% include media-url.html src=site.avatar_dark %}
+      {%- endcapture -%}
+      <img src="{{- avatar_url -}}" width="112" class="light" height="112" alt="avatar"
+        onerror="this.style.display='none'">
+      <img src="{{- avatar_dark_url -}}" width="112" class="dark" height="112" alt="avatar"
+        onerror="this.style.display='none'">
+      {%- else -%}
+      <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      {%- endif -%}
       {%- endif -%}
     </a>
 
@@ -45,69 +33,49 @@
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
-        </a>
+        </a>ß
       </li>
-      <li class="nav-item">
-          <a href="https://quantumclubasu.github.io/fallfest25/" class="nav-link">
-            <i class="fa fa-calendar"></i>
-            <span>Fall Fest 2025</span>
-          </a>
-        </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
-        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-          <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+      <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+        <a href="{{ tab.url | relative_url }}" class="nav-link">
+          <i class="fa-fw {{ tab.icon }}"></i>
+          {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
-            <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+          <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
       {% endfor %}
     </ul>
   </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     {% for entry in site.data.contact %}
-      {% case entry.type %}
-        {% when 'github', 'twitter' %}
-          {%- capture url -%}
-            https://{{ entry.type }}.com/{{ site[entry.type].username }}
-          {%- endcapture -%}
-        {% when 'email' %}
-          {% assign email = site.social.email | split: '@' %}
-          {%- capture url -%}
-            javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
-          {%- endcapture -%}
-        {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
-        {% else %}
-          {% assign url = entry.url %}
-      {% endcase %}
+    {% case entry.type %}
+    {% when 'github', 'twitter' %}
+    {%- capture url -%}
+    https://{{ entry.type }}.com/{{ site[entry.type].username }}
+    {%- endcapture -%}
+    {% when 'email' %}
+    {% assign email = site.social.email | split: '@' %}
+    {%- capture url -%}
+    javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+    {%- endcapture -%}
+    {% when 'rss' %}
+    {% assign url = '/feed.xml' | relative_url %}
+    {% else %}
+    {% assign url = entry.url %}
+    {% endcase %}
 
-      {% if url %}
-        <a
-          href="{{ url }}"
-          aria-label="{{ entry.type }}"
-          {% assign link_types = '' %}
-
-          {% unless entry.noblank %}
-            target="_blank"
-            {% assign link_types = 'noopener noreferrer' %}
-          {% endunless %}
-
-          {% if entry.type == 'mastodon' %}
-            {% assign link_types = link_types | append: ' me' | strip %}
-          {% endif %}
-
-          {% unless link_types == empty %}
-            rel="{{ link_types }}"
-          {% endunless %}
-        >
-          <i class="{{ entry.icon }}"></i>
-        </a>
-      {% endif %}
+    {% if url %}
+    <a href="{{ url }}" aria-label="{{ entry.type }}" {% assign link_types='' %} {% unless entry.noblank %}
+      target="_blank" {% assign link_types='noopener noreferrer' %} {% endunless %} {% if entry.type=='mastodon' %} {%
+      assign link_types=link_types | append: ' me' | strip %} {% endif %} {% unless link_types==empty %}
+      rel="{{ link_types }}" {% endunless %}>
+      <i class="{{ entry.icon }}"></i>
+    </a>
+    {% endif %}
     {% endfor %}
   </div>
   <!-- .sidebar-bottom -->
