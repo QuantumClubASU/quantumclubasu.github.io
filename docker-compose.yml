@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/jekyll:2-bullseye
+    volumes:
+      - .:/workspaces/quantumclubasu.github.io
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    environment:
+      - JEKYLL_ENV=development
+      - BUNDLE_PATH=vendor/bundle
+    working_dir: /workspaces/quantumclubasu.github.io
+    command: >
+      bash -c "
+        git config --global --add safe.directory /workspaces/quantumclubasu.github.io &&
+        bundle install &&
+        bash .devcontainer/post-create.sh &&
+        bundle exec jekyll serve --host 0.0.0.0 --livereload
+      "
+    user: vscode
