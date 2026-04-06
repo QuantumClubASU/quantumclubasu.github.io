@@ -48,27 +48,27 @@ previous_members:
   - name: Noah Wasserbeck
     post: President [2024-2025]
     linkedin: noah-wasserbeck-5b3b48212
-    image: https://media.licdn.com/dms/image/v2/C4E03AQEXEKurBtKTIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1623345983847?e=1759363200&v=beta&t=li1sefx3IFBWlwfSeF4-MHtjQnGKKSUZ81U4xS1Sf5Q
+    image: /assets/img/team/noah.jpg
     about: |
       Hey everyone, I'm now a AI developer at The Cigna Group.
 
   - name: Rhea Fernandes
     post: Vice President [2024-2025]
     linkedin: rheapfernandes
-    image: https://media.licdn.com/dms/image/v2/D5603AQFxMjUFND2q4w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730262712738?e=1759363200&v=beta&t=Wt4Gxke_NzlFJPXCDrUJubUFz8fgS7MsWWZIUaGtImU
+    image: /assets/img/team/rhea.jpg
     about: |
       PhD student in Quantum Network at Purdue
 
   - name: Zachary Goisman
     post: Secretary [2024-2025]
     linkedin: zachary-goisman
-    image: https://media.licdn.com/dms/image/v2/D5603AQFVHy0nsfpdDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667526264534?e=1761782400&v=beta&t=Oseon-hTWmJfLVyGCbCkQQrhIYxalu7kWjK0VWTXyGs
+    image: /assets/img/team/zachary.jpg
     about: |
       I am an Electrical Engineering PhD student at Purdue University researching Quantum Networking.
   
   - name: Matthew Stevens
     post: Treasurer
-    image: https://media.licdn.com/dms/image/v2/D4D03AQF5ZvpYH9YkMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711134515449?e=1761782400&v=beta&t=YxcbPvCb1dCIikO8xOZlEE7sdIajkmpHNXbgxJw-Esk
+    image: /assets/img/team/matt.jpg
     linkedin: matthewleestevens
     email: msteve27@asu.edu
     # url: # Only use this for personal websites. LinkedIn will automatically get the URL based on the ID
