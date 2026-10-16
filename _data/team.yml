@@ -37,6 +37,15 @@ members:
     # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
     about: |
       Computer Information Systems undergraduate passionate about expanding access to technology, exploring emerging fields like quantum computing, and combining technical innovation with strong design
+
+  - name: Jeremiah Jaw
+    post: Logistics/Operations
+    image: /assets/img/team/jerru.jpg
+    linkedin: 
+    email: jjaw1@asu.edu
+    # url: # Only use this for personal websites. LinkedIn will automatically get the URL based on the ID
+    about: |
+      Undergrad in Electrical Engineering with a passion for people, stories, semiconductor, and electronics design.
       
   - name: Pravallika Akavarapu
     post: Social Media Manager
