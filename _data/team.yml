@@ -38,7 +38,14 @@ members:
     about: |
       Computer Information Systems undergraduate passionate about expanding access to technology, exploring emerging fields like quantum computing, and combining technical innovation with strong design
       
-
+  - name: Pravallika Akavarapu
+    post: Social Media Manager
+    image: /assets/img/team/Pravallika.jpg
+    linkedin:
+    email: pakavara@asu.edu
+    # url: # Only use this for personal websites. Linkedin will automatically get the url based on the id
+    about: |
+      Electrical Engineering Undergraduate passionate in making the subject of Quantum approachable and accessible.
   
 
 previous_members:
